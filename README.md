@@ -1,2 +1,2 @@
-# Aplikasi sistem kegiatan hibah dan bantuan sosial kabupaten bogor
+# Aplikasi E-Government Kegiatan Hibah dan Bantuan Sosial Kabupaten Bogor
 PENGEMBANGAN E-GOVERNMENT DINAS KOMUNIKASI DAN INFORMATIKA KABUPATEN BOGOR
