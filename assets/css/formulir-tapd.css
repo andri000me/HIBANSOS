@@ -1,0 +1,13 @@
+.border{
+    border: gray groove 1px!important;
+}
+html,body{
+    font-family: Georgia, Times New Roman, serif
+}
+th,td{
+    padding: .5rem!important;
+}
+#ttd tbody tr td span{
+    background-color: white;
+    display: inline-block;
+}

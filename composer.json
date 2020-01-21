@@ -11,13 +11,22 @@
 		"source": "https://github.com/bcit-ci/CodeIgniter"
 	},
 	"require": {
-		"php": ">=5.3.7"
+		"php": ">=7.1",
+		"jenssegers/blade": "v1.2.1",
+		"intervention/image": "^2.5",
+		"symfony/http-foundation": "^4.3",
+		"symfony/http-client": "^4.3",
+		"guzzlehttp/guzzle": "~6.0"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
 	},
 	"require-dev": {
 		"mikey179/vfsStream": "1.1.*",
-		"phpunit/phpunit": "4.* || 5.*"
+		"symfony/var-dumper": "^4.3",
+		"kint-php/kint-js": "2.0",
+		"fzaninotto/faker": "^1.8",
+		"kenjis/ci-phpunit-test": "^0.17.0",
+		"phpunit/phpunit": "8.1"
 	}
 }

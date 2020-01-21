@@ -1,0 +1,215 @@
+html,body{
+    padding: 0!important;
+    overflow-x: hidden!important;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.card-img-top{
+    height: 144px;
+    width: 256px;
+}
+.dropdown-menu{
+    border-radius: 0;
+    border: none;
+    background-color: var(--main2);
+}
+.dropdown-item:hover{
+    background-color: var(--main);
+    color: white!important;
+    box-shadow: 0 0 0 rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+/*.form-control.is-valid, .was-validated .form-control:valid{*/
+/*    filter: sepia(100%) hue-rotate(190deg) saturate(500%);*/
+/*    color: black;*/
+/*}*/
+/*.md-form input[type=text].is-invalid:focus:not([readonly]) + label { color: #CC0000; }*/
+:root {
+    --paper:#f4f4ef;
+    --ink:#20232A;
+    --alumunium:#acbebe;
+    --rubyred:#A01d26;
+    --matteblack:#1e1e20;
+    --cobalt:#3a5199;
+    --main:#1a3c66;
+    --main2:#f6d55c;
+}
+/*.navbar{*/
+/*    background-color: #0B3954!important;*/
+/*    z-index: 99!important;*/
+/*}*/
+/*.bg-ruby{*/
+/*    background-color: var(--rubyred)!important;*/
+/*}*/
+.nav-link{
+    border-bottom: solid 3px transparent!important;
+}
+.nav-link:hover, .nav-link.active{
+    color: var(--main2)!important;
+    border-bottom: solid 3px var(--main2)!important;
+}
+.btn-main-2{
+    background-color: var(--main2);
+    color: #0e4377;
+}
+.btn-main1{
+    background-color: var(--main);
+    color: var(--main2);
+}
+.btn-main1:hover{
+    color: var(--white);
+}
+[type='radio']{
+    display: none;
+}
+textarea.form-control{
+    resize: none;
+}
+textarea.form-control:focus{
+    box-shadow: none;
+}
+.custom-file-label{
+    border-bottom: 2px var(--gray) solid;
+    border-top:none!important;
+    border-left: none!important;
+    border-right: none!important;
+    border-radius: 0!important;
+}
+.custom-file-label::after{
+    background-color: var(--main2);
+    border-radius: 0;
+}
+.toast{
+    position: fixed;
+    right: 1rem;
+    top: 3rem;
+    z-index: 1000!important;
+    border: none!important;
+    border-radius: 0!important;
+}
+.navbar{
+    z-index: 99;
+}
+td{
+    padding: 0.5rem!important;
+    vertical-align: middle!important;
+}
+#table-pemeriksaan thead tr th{
+    font-size: .8rem;
+    padding: 0.5rem;
+}
+#table-pemeriksaan tbody tr td{
+    font-size: .8rem;
+    padding: 0.3rem;
+}
+select:focus{
+    box-shadow: none!important;
+}
+#display-proposal{
+    height: 360px;
+    width: 640px;
+}
+.custom-select{
+    border-radius: 0!important;
+    border-bottom: solid 1px gray !important;
+    border-top: none;
+    border-left: none;
+}
+:root {
+    --background-color: #FFFFFF;
+    --primary-color: #E66A53;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.steps {
+    position: relative;
+    margin: auto;
+}
+
+.steps::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 24px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    left: calc(50px / 2);
+    z-index: 1;
+}
+
+
+.step-header:hover{
+    /*padding: 1rem 1rem 1rem 0;*/
+    color: var(--matteblack);
+    font-weight: bolder;
+}
+.step-header{
+    transition-duration: 500ms;
+}
+.step {
+    padding: 0 3rem 3rem 50px;
+    position: relative;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+.step::before {
+    content: '';
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background-color: var(--white);
+    border-radius: 15px;
+    left: calc(50px / 2);
+    transform: translateX(-45%);
+    z-index: 2;
+}
+
+.step::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: var(--white);
+    left: calc(50px / 2);
+    top: 0;
+    z-index: 1;
+}
+
+.step.minimized {
+    background-color: #FFF;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.header {
+    user-select: none;
+    font-size: 16px;
+}
+
+.subheader {
+    user-select: none;
+}
+
+.step-content {
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    position: relative;
+}
+#tentang-container #quill-container.ql-container{
+    border: none!important;
+}
+.page-item.active {
+    background-color: var(--blue)!important;
+    border-radius: 10%;
+}
+.page-item.active:hover {
+    background-color: var(--blue)!important;
+    border-radius: 10%;
+}
